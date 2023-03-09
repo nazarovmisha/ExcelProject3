@@ -4,8 +4,6 @@ import java.util.List;
 
 
 public class Main {
-
-
     public static void main(String[] args) throws IOException {
         List<University> universities = Input.inputUniversities("src/main/resources/universityInfo.xlsx");
         UniversityComparator universityComparator = ComparatorClass
