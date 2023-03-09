@@ -1,5 +1,3 @@
-import java.util.Comparator;
-
 public class StudentAvgExamScoreComparator implements StudentComparator {
     @Override
     public int compare(Student o1, Student o2) {

@@ -1,5 +1,3 @@
-import java.util.Comparator;
-
 public class UniversityStudyProfileComparator implements UniversityComparator {
     @Override
     public int compare(University o1, University o2) {
