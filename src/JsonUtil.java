@@ -1,10 +1,18 @@
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonParser;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class JsonUtil {
-    public static void fdgd() {
-        String jsonString = "asasa";
-
-        System.out.println(new GsonBuilder().setPrettyPrinting().create().toJson(new JsonParser().parse(jsonString)));
+    private JsonUtil() {
     }
+public static void sadas(){
+    ObjectMapper objectMapper = new ObjectMapper();
+    String json;
+    json = objectMapper.writeValueAsString();
+    System.out.println(json);
+
+
+}
 }
